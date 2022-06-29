@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Blockchain Lottery</title>
+    <link rel="stylesheet" href="main.css"/>
+</head>
+<body>
+    <header>
+        <h2>Lottery - Ballot</h2>
+        <h4 id="balanceTag">Current Contract Balance: </h3>
+        <hr/>
+    </header>
+
+    <table>
+        <tr>
+            <td colspan="2"><h3>Car</h3></td>
+            <td colspan="2"><h3>Phone</h3></td>
+            <td colspan="2"><h3>Computer</h3></td>
+        </tr>
+        <tr>
+            <td colspan="2"><img src="car.jpg" alt="car"/></td>
+            <td colspan="2"><img src="phone.jpg" alt="phone"/></td>
+            <td colspan="2"><img src="laptop.jpg" alt="computer"/></td>
+        </tr>
+        <tr>
+            <td><button class="bidButton">Bid</button></td>
+            <td><h2 class="bidAmmount"></h2></td>
+            <td><button class="bidButton">Bid</button></td>
+            <td><h2 class="bidAmmount"></h2></td>
+            <td><button class="bidButton">Bid</button></td>
+            <td><h2 class="bidAmmount"></h2></td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <td>Current Account</td>
+            <td>Owner's Account</td>
+        </tr>
+        <tr>
+            <td><input type="text"/></td>
+            <td><input type="text"/></td>
+        </tr>
+        <tr>
+            <td><button id="revealButton">Reveal</button></td>
+            <td><button id="withdrawButton">Withdraw</button></td>
+        </tr>
+        <tr>
+            <td><button id="amIWinnerButton">Am I Winner</button></td>
+            <td><button id="declareButton">Declare Winner</button></td>
+        </tr>
+    </table>
+
+    <script src="web3.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
